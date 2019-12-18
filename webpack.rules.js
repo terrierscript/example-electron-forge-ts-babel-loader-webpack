@@ -32,10 +32,10 @@ module.exports = [
   // }
   {
     test: /\.tsx?$/,
-    exclude: /(node_modules|.webpack)/,
+    exclude: /(node_modules)/,
     use: [
       {
-        loader: "dsssss-loader",
+        loader: "ts-loader",
         options: {
           transpileOnly: true
         }

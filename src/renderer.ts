@@ -28,3 +28,4 @@
 
 import "./app/index.tsx"
 // console.log("xxxx")
+// type Baz = { aa: string }

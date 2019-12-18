@@ -30,5 +30,17 @@ module.exports = {
   },
   module: {
     rules
+  },
+  // bail: true
+  infrastructureLogging: {
+    level: "log"
   }
+  // stats: {
+  //   all: true
+  // }
+  // plugins: [
+  //   (...args) => {
+  //     console.log("plg", args)
+  //   }
+  // ]
 }
